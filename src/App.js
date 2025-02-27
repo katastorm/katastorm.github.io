@@ -53,7 +53,7 @@ const App = () => {
                             <Routes>
 
 
-                                <Route path="/*" element={<Navigate to="/Jub_Biography/" replace />} /> {/* navigate to default route if no url matched */}
+                                <Route path="/*" element={<Navigate to="/Jub_Biography/"/>} /> {/* navigate to default route if no url matched */}
 
 
 
