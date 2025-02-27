@@ -1,17 +1,10 @@
 
 
-import FrontPage from "./FrontPageUnity";
-import ProjectPage from "./ProjectPage";
-import ProfilePage from "./ProfilePage";
-import PageNotFound from "./404";
-import { DrawHeaderNav, DrawFooterNav } from './NavHeader.js';
-import { useState, useEffect } from 'react';
-import folders from "./projectList.json"
-import { prettyFormat } from "@testing-library/react";
-import ParralaxBackground from './jquerry/ParralaxBackground.js';
+
+
+
+
 import { HashRouter, BrowserRouter, Routes, Route, Navigate, useParams, useNavigate } from "react-router-dom";
-
-
 
 
 
@@ -20,22 +13,6 @@ import { HashRouter, BrowserRouter, Routes, Route, Navigate, useParams, useNavig
 ////Gere la liste des projets
 const App = () => {
   
-
-
-
-    function RepairHashtagLink() {
-
-        console.log("broken link")
-        //console.log(useParams())
-
-
-        return <h1>Broken shit</h1>
-
-        //  return (<Navigate to="/Jub_Biography/home" replace />)
-
-    }
-
-
 
 
 
@@ -76,7 +53,7 @@ const App = () => {
                             <Routes>
 
 
-                                <Route path="/*" element={<Navigate to="/Jub_Biography/home" replace />} /> {/* navigate to default route if no url matched */}
+                                <Route path="/*" element={<Navigate to="/Jub_Biography/" replace />} /> {/* navigate to default route if no url matched */}
 
 
 
