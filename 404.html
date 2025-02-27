@@ -27,11 +27,10 @@
       var l = window.location;
 
       //const re = /Jub_Biography/gi;
-      //  res = res.replace(re, "Jub_Biography");        
-
-       
-      window.replace("https://katastorm.github.io/Jub_Biography");
-
+      
+      if(!(l.pathname.split('/')[0] === "Jub_Biography")){      
+              l.replace("https://katastorm.github.io/Jub_Biography");
+      }
     
 
     </script>
